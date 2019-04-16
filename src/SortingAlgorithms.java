@@ -1,7 +1,7 @@
 public class SortingAlgorithms {
 
 
-    static int[] theArray = new int[]{10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+    static int[] theArray = new int[]{12231, 21230, 31, 4, 250, 603, 704, 8, 5590, 100};
 
 
 
@@ -10,7 +10,33 @@ public class SortingAlgorithms {
             System.out.print(i+" = "+theArray[i]+", ");
         }
         System.out.println();
-        linearSearchForValue(50);
+       // linearSearchForValue(50);
+
+        bubbleSort(theArray);
+
+        for (int i =0; i < theArray.length;i++){
+            System.out.print(i+" = "+theArray[i]+", ");
+        }
+    }
+
+    public static void bubbleSort(int array[]){
+        for (int i = array.length -1; i >1; i--){
+            for (int j = 0; j < i; j++){
+                if (array[j] > array[j+1]) {
+                    swapValues(j,j+1);
+
+                }
+            }
+        }
+    }
+
+    public static void swapValues(int indexOne, int indexTwo){
+
+        int temp = theArray[indexOne];
+
+        theArray[indexOne] =  theArray[indexTwo];
+
+        theArray[indexTwo] = temp;
 
     }
 
