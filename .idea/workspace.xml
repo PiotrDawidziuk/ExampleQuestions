@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9bac701-aadd-48ac-982a-8f834275cb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CompareStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortingAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="153">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompareStrings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -96,9 +96,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Factorial.java" />
-        <option value="$PROJECT_DIR$/src/SortingAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/CompareStrings.java" />
+        <option value="$PROJECT_DIR$/src/SortingAlgorithms.java" />
       </list>
     </option>
   </component>
@@ -135,7 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555446374495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555450307317" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompareStrings">
+  <component name="RunManager" selected="Application.SortingAlgorithms">
     <configuration name="CompareStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompareStrings" />
       <module name="ExampleQuestions" />
@@ -181,8 +181,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms" />
+      <module name="ExampleQuestions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingAlgorithms" />
         <item itemvalue="Application.CompareStrings" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.Factorial" />
@@ -257,13 +265,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortingAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -282,6 +283,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
