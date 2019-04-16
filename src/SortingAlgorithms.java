@@ -19,6 +19,7 @@ public class SortingAlgorithms {
         }
     }
 
+    //bubble search method
     public static void bubbleSort(int array[]){
         for (int i = array.length -1; i >1; i--){
             for (int j = 0; j < i; j++){
@@ -30,17 +31,15 @@ public class SortingAlgorithms {
         }
     }
 
+    //method needed fot bubble sort
     public static void swapValues(int indexOne, int indexTwo){
-
         int temp = theArray[indexOne];
-
         theArray[indexOne] =  theArray[indexTwo];
-
         theArray[indexTwo] = temp;
-
     }
 
 
+    //linear search method
     public static String linearSearchForValue(int value){
         boolean valueInArray = false;
         String indexsWithValue = "";
