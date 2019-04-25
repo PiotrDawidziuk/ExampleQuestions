@@ -1,4 +1,6 @@
-// Class of ReverseString 
+package ReverseString;
+
+// Class of ReverseString.ReverseString
 class ReverseString
 {
     public static void main(String[] args)
